@@ -34,7 +34,7 @@
     <div id="page" class="hfeed site">
         <?php do_action('storefront_before_header'); ?>
 
-        <header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
+        <header id="masthead" class="site-header header" role="banner" style="<?php storefront_header_styles(); ?>">
 
             <?php
             /**
@@ -52,7 +52,7 @@
              * @hooked storefront_header_cart                      - 60
              * @hooked storefront_primary_navigation_wrapper_close - 68
              */
-            do_action('storefront_header');
+            // do_action('storefront_header');
             do_action('bs_header');
             ?>
 
