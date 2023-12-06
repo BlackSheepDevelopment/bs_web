@@ -40,13 +40,23 @@ function load_assets($entries)
  * @hooked storefront_primary_navigation_wrapper_close - 68
  */
 
+
+
 add_action("bs_header", "storefront_header_container");
-add_action("bs_header", "storefront_skip_links");
+add_action("bs_header", "add_bs_logo");
 add_action("bs_header", "storefront_social_icons");
 add_action("bs_header", "storefront_secondary_navigation");
-add_action("bs_header", "storefront_product_search");
 add_action("bs_header", "storefront_header_container_close");
 add_action("bs_header", "storefront_primary_navigation_wrapper");
 add_action("bs_header", "storefront_primary_navigation");
 add_action("bs_header", "storefront_header_cart");
 add_action("bs_header", "storefront_primary_navigation_wrapper_close");
+
+function add_bs_logo()
+{
+?>
+    <div class="header__logo">
+        <img src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_LOGO_BLACK.png'; ?>" alt="blacksheep-logo">
+    </div>
+<?php
+}
