@@ -5,6 +5,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 768px){
+        display: block!important;
+    }
+
     .col-full{
         margin-left: inherit!important;
 
@@ -20,10 +24,28 @@
             width: auto;
         }
     }
+
+    .main-navigation{
+        .primary-navigation{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            @media (max-width: 768px){
+                display: none;
+            }
+        }
+        
+    }
 }
 
 .header__logo{
     max-width: 200px;
     width: 100%;
     height: auto;
+
+    @media (max-width: 768px){
+        margin-top: 10px;
+        float:left;
+    }
 }

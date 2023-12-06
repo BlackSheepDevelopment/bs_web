@@ -5,6 +5,9 @@
   display: flex !important;
   justify-content: space-between;
   align-items: center; }
+  @media (max-width: 768px) {
+    .header {
+      display: block !important; } }
   .header .col-full {
     margin-left: inherit !important; }
     @media (max-width: 768px) {
@@ -15,9 +18,20 @@
     @media (max-width: 768px) {
       .header .storefront-primary-navigation {
         width: auto; } }
+  .header .main-navigation .primary-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    @media (max-width: 768px) {
+      .header .main-navigation .primary-navigation {
+        display: none; } }
 
 .header__logo {
   max-width: 200px;
   width: 100%;
   height: auto; }
+  @media (max-width: 768px) {
+    .header__logo {
+      margin-top: 10px;
+      float: left; } }
 
