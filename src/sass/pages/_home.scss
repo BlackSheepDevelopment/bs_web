@@ -1,0 +1,29 @@
+
+
+.header{
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+
+    .col-full{
+        margin-left: inherit!important;
+
+        @media (max-width: 768px){
+            margin-left: 1.41575em!important;
+        }
+    }
+
+    .storefront-primary-navigation{
+        width: 100%;
+
+        @media (max-width: 768px){
+            width: auto;
+        }
+    }
+}
+
+.header__logo{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
