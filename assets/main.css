@@ -1,9 +1,23 @@
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/styles.scss ***!
   \***************************************************************************************************************/
-body {
-  background-color: red; }
+.header {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center; }
+  .header .col-full {
+    margin-left: inherit !important; }
+    @media (max-width: 768px) {
+      .header .col-full {
+        margin-left: 1.41575em !important; } }
+  .header .storefront-primary-navigation {
+    width: 100%; }
+    @media (max-width: 768px) {
+      .header .storefront-primary-navigation {
+        width: auto; } }
 
-.new-header {
-  background-color: blue; }
+.header__logo {
+  max-width: 200px;
+  width: 100%;
+  height: auto; }
 
