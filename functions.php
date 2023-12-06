@@ -56,7 +56,9 @@ function add_bs_logo()
 {
 ?>
     <div class="header__logo">
-        <img src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_LOGO_BLACK.png'; ?>" alt="blacksheep-logo">
+        <a href="<?php echo get_home_url(); ?>">
+            <img src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_LOGO_BLACK.png'; ?>" alt="blacksheep-logo">
+        </a>
     </div>
 <?php
 }
