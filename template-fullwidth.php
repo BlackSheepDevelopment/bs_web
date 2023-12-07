@@ -25,6 +25,8 @@ get_header(); ?>
                 <img class="slider__arrow slider__arrow--right" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/arrow.svg' ?>" />
             </button>
         </div>
+
+        <div class="menu-categories"></div>
     </main><!-- #main -->
 </div><!-- #primary -->
 
