@@ -44,13 +44,8 @@ function load_assets($entries)
 
 add_action("bs_header", "storefront_header_container");
 add_action("bs_header", "add_bs_logo");
-add_action("bs_header", "storefront_social_icons");
-add_action("bs_header", "storefront_secondary_navigation");
-add_action("bs_header", "storefront_header_container_close");
-add_action("bs_header", "storefront_primary_navigation_wrapper");
 add_action("bs_header", "storefront_primary_navigation");
 add_action("bs_header", "storefront_header_cart");
-add_action("bs_header", "storefront_primary_navigation_wrapper_close");
 
 function add_bs_logo()
 {
