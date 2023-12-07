@@ -42,10 +42,10 @@ function load_assets($entries)
 
 
 
-add_action("bs_header", "storefront_header_container");
 add_action("bs_header", "add_bs_logo");
 add_action("bs_header", "storefront_primary_navigation");
 add_action("bs_header", "storefront_header_cart");
+
 
 function add_bs_logo()
 {
