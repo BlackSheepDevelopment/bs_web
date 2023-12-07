@@ -1,5 +1,6 @@
 .header{
-    padding-top: 1.2rem!important;
+    font-family: Gotham;
+    padding-top: 0.5rem!important;
     margin-bottom: 0!important;
 
     @media (max-width: 768px){
@@ -18,10 +19,15 @@
 
     .main-navigation{
         padding-left: 2rem!important;
+        font-weight: 800;
     }
 
     .menu-item > a{
-        padding: 1rem!important;
+        padding:0.5rem 1rem!important;
+    }
+
+    .cart-contents{
+        padding: 1em 0!important;
     }
 
 }
