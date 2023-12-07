@@ -9,7 +9,7 @@ const config = {
     },
     output: {
         path: path.resolve(__dirname, "assets"),
-        publicPath: "/assets/",
+        publicPath: "assets/",
         filename: "[name].min.js",
     },
     module: {
