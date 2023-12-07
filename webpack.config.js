@@ -34,6 +34,17 @@ const config = {
                     filename: "./img/[name][ext]",
                 },
             },
+            {
+                test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.otf($|\?)/,
+                use: {
+                    loader: "url-loader",
+                    options: {
+                        limit: 40000,
+                        name: "[name].[ext]",
+                        outputPath: "fonts/",
+                    },
+                },
+            },
         ],
     },
     plugins: [
