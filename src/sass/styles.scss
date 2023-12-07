@@ -1,2 +1,7 @@
+@import './utils/fonts';
 @import './pages/home';
 @import './components/header';
+
+body{
+    font-family: 'Gotham';
+}
