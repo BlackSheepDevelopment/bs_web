@@ -26,7 +26,9 @@ get_header(); ?>
             </button>
         </div>
 
-        <div class="menu-categories"></div>
+        <div class="menu-categories">
+
+        </div>
     </main><!-- #main -->
 </div><!-- #primary -->
 
