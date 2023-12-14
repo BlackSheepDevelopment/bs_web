@@ -57,6 +57,20 @@
       transition: background 0.5s ease-in-out;
       background: rgba(255, 255, 255, 0.5); }
 
+.top-products {
+  padding-top: 2em !important; }
+  .top-products .top-products__title {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em; }
+
+.woocommerce-products-header {
+  padding: 0 0 1.5em !important; }
+
+.storefront-breadcrumb {
+  margin: 0 !important; }
+
 .header {
   font-family: Gotham;
   padding-top: 0.5rem !important;
