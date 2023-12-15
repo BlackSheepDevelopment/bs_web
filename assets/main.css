@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Gotham") url(/assets/fonts/gotham_normal.otf), format("otf"); }
+  src: url(/assets/fonts/gotham_normal.otf) format("otf"); }
 
 .slider-container {
   position: relative;
@@ -268,6 +268,10 @@
     .header__logo {
       margin-top: 10px;
       float: left; } }
+
+@font-face {
+  font-family: "Sequel";
+  src: url(/assets/fonts/sequel_normal.otf) format("otf"); }
 
 body {
   font-family: "Sequel"; }

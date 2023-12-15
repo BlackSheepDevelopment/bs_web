@@ -1,11 +1,17 @@
-// @font-face {
-//     font-family: 'Gotham';
-//     font-style: normal;
-//     font-weight: 500;
-//     font-display: swap;
-//     src: url(../fonts/gotham_normal.otf), format('otf');
-// }
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/gotham_normal.otf) format('otf');
+}
   
+
+@font-face {
+    font-family: "Sequel";
+    src: url("../fonts/sequel_normal.otf") format("otf");
+}
+
 
 // @font-face {
 //     font-family: 'Gotham';
@@ -32,10 +38,3 @@
 //     font-weight: 500;
 //     src: url("../fonts/sequel_normal.otf") format('otf');}
 
-@font-face {
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('Gotham') url(../fonts/gotham_normal.otf), format('otf');    
-}
