@@ -1,20 +1,41 @@
+// @font-face {
+//     font-family: 'Gotham';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-display: swap;
+//     src: url(../fonts/gotham_normal.otf), format('otf');
+// }
+  
+
+// @font-face {
+//     font-family: 'Gotham';
+//     font-weight: 700;
+//     src: url(../fonts/gotham_bold.ttf) format('ttf');
+// }
+
+// @font-face {
+//     font-family: 'Gotham';
+//     font-weight: 300;
+//     src: url(../fonts/gotham_light.otf) format('otf');
+// }
+
+
+
+// @font-face {
+//     font-family: 'Akira';
+//     font-weight: 500;
+//     src: url(../fonts/akira_bold.otf) format('otf');
+// }
+
+// @font-face {
+//     font-family: 'Sequel';
+//     font-weight: 500;
+//     src: url("../fonts/sequel_normal.otf") format('otf');}
+
 @font-face {
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('Gotham'), url(../fonts/gotham_normal.otf) format('otf');
-}
-  
-
-@font-face {
-    font-family: 'Gotham';
-    font-weight: 700;
-    src: url(../fonts/gotham_bold.ttf) format('ttf');
-}
-
-@font-face {
-    font-family: 'Gotham';
-    font-weight: 300;
-    src: url(../fonts/gotham_light.otf) format('otf');
+    src: local('Gotham') url(../fonts/gotham_normal.otf), format('otf');    
 }

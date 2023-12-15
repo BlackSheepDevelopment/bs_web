@@ -36,12 +36,14 @@ const config = {
             },
             {
                 test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.otf($|\?)/,
+                type: "javascript/auto",
                 use: {
-                    loader: "url-loader",
+                    loader: "file-loader",
                     options: {
-                        limit: 40000,
                         name: "[name].[ext]",
-                        outputPath: "fonts/",
+                        outputPath: "../assets/fonts/",
+                        publicPath: "../assets/fonts/",
+                        esModule: false,
                     },
                 },
             },
