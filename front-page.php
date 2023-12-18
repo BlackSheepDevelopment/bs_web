@@ -65,30 +65,30 @@ get_header();
         <div class="col-full categories">
             <p class="categories__title">Categorías</p>
             <div class="categories-container">
-                <div class="custom-btn btn-15">
+                <a class="custom-btn btn-15" href="<?php echo get_term_link(get_term_by('slug', 'true-wireless', 'product_cat')->term_id); ?>">
                     <img class="categories__item__icon" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/ICON_TW.png' ?>" />
 
                     <p class="categories__item__title">True Wireless</p>
-                </div>
-                <div class="custom-btn btn-15">
+                </a>
+                <a class="custom-btn btn-15" href="<?php echo get_term_link(get_term_by('slug', 'headphones', 'product_cat')->term_id); ?>">
                     <img class="categories__item__icon" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/ICON_HP.png' ?>" />
 
                     <p class="categories__item__title">Headphones</p>
-                </div>
-                <div class="custom-btn btn-15">
+                </a>
+                <a class="custom-btn btn-15" href="<?php echo get_term_link(get_term_by('slug', 'cableados', 'product_cat')->term_id); ?>">
                     <img class="categories__item__icon" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/ICON_CABLEADOS.png' ?>" />
 
                     <p class="categories__item__title">
                         Cableados
                     </p>
-                </div>
-                <div class="custom-btn btn-15">
+                </a>
+                <a class="custom-btn btn-15" href="<?php echo get_term_link(get_term_by('slug', 'accesorios', 'product_cat')->term_id); ?>">
                     <img class="categories__item__icon" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/ICON_LENTES.png' ?>" />
 
                     <p class="categories__item__title">
                         Accesorios
                     </p>
-                </div>
+                </a>
             </div>
 
         </div>
