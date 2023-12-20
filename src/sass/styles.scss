@@ -7,14 +7,14 @@
 @import './components/header';
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Sequel';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url("../fonts/gotham_normal.otf") format('otf');
+    src: url("../fonts/sequel_normal.woff") format('woff');
 }
   
 
 body{
-    font-family:Gotham!important;
+    font-family:Sequel!important;
 }
