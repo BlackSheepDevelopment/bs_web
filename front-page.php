@@ -18,7 +18,7 @@ get_header();
                 <div class="slider__image">
                     <div class="slider__image__info">
                         <p class="slider__image__info__text">Drums</p>
-                        <a href="http://www.blacksheep.com.pe/product/smoke-2-0-anc/" class="slider__image__info__link">¡Cómpralos aquí!</a>
+                        <a href="http://www.blacksheep.com.pe/product/drums/" class="slider__image__info__link">¡Cómpralos aquí!</a>
                     </div>
                     <img class="slider__image__img" src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_BANNER_2.jpg' ?>" alt="bs-banner-1">
 
@@ -26,7 +26,7 @@ get_header();
                 <div class="slider__image slider__image--2">
                     <div class="slider__image__info">
                         <p class="slider__image__info__text">Smoke 2.0 ANC</p>
-                        <a href="http://www.blacksheep.com.pe/product/drums/" class="slider__image__info__link">¡Cómpralos aquí!</a>
+                        <a href="http://www.blacksheep.com.pe/product/smoke-2-0-anc/" class="slider__image__info__link">¡Cómpralos aquí!</a>
                     </div>
                     <img class="slider__image__img" src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_BANNER_1.jpg' ?>" alt=" bs-banner-2">
 
