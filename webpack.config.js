@@ -39,7 +39,9 @@ module.exports = [
                     test: /\.(woff|woff2|eot|ttf|otf)$/,
                     type: "asset/resource",
                     generator: {
-                        filename: "../dis/font/[name][ext]",
+                        filename: "[name][ext]",
+                        publicPath: "./dist/fonts/",
+                        outputPath: "./dist/fonts/",
                     },
                 },
                 // loader for images and icons (only required if css references image files)
