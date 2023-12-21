@@ -296,35 +296,35 @@
 .storefront-breadcrumb {
   margin: 0 !important; }
 
-#post-8 .entry-header {
+#post-10 .entry-header {
   padding: 0 !important; }
-  #post-8 .entry-header .entry-title {
+  #post-10 .entry-header .entry-title {
     text-align: left; }
 
-#post-8 #billing_country_field {
+#post-10 #billing_country_field {
   display: none !important; }
 
-#post-8 .entry-content input {
+#post-10 .entry-content input {
   background-color: white;
   box-shadow: none;
   border: 1px solid black;
   border-radius: 7px; }
 
-#post-8 .entry-content .select2.select2-container {
+#post-10 .entry-content .select2.select2-container {
   width: 100% !important; }
 
-#post-8 .entry-content .select2.select2-container .select2-selection {
+#post-10 .entry-content .select2.select2-container .select2-selection {
   padding: .6180469716em;
   border: 1px solid black;
   border-radius: 7px;
   height: 45px; }
 
-#post-8 .entry-content .select2.select2-container .select2-selection .select2-selection__rendered {
+#post-10 .entry-content .select2.select2-container .select2-selection .select2-selection__rendered {
   color: black;
   line-height: 25px;
   padding-right: 33px; }
 
-#post-8 .entry-content .select2.select2-container .select2-selection .select2-selection__arrow {
+#post-10 .entry-content .select2.select2-container .select2-selection .select2-selection__arrow {
   height: 32px;
   width: 33px; }
 
