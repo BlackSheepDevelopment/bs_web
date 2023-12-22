@@ -328,6 +328,9 @@
   height: 32px;
   width: 33px; }
 
+.product .product-logo {
+  width: 300px !important; }
+
 .header {
   padding-top: 0.5rem !important;
   margin-bottom: 0 !important; }
