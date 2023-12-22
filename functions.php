@@ -52,3 +52,6 @@ function add_bs_logo()
     </div>
 <?php
 }
+
+
+add_action("bs_footer", "storefront_footer_widgets", 10);
