@@ -15,30 +15,38 @@ get_header();
     <main id="main" class="site-main" role="main">
         <div class="slider-container">
             <div class="slider">
-                <div class="slider__image">
-                    <div class="slider__image__info">
-                        <p class="slider__image__info__text">Drums</p>
-                        <a href="http://www.blacksheep.com.pe/product/drums/" class="slider__image__info__link">¡Cómpralos aquí!</a>
+                <?php
+                // Show the slider images
+                if (get_field('homebanner_slider')) {
+                    $homebanner = get_field('homebanner_slider');
+                    $banner_1 = $homebanner['banner_1'];
+                    $banner_2 = $homebanner['banner_2'];
+                    $banner_3 = $homebanner['banner_3'];
+                ?>
+                    <div class="slider__image">
+                        <div class="slider__image__info">
+                            <p class="slider__image__info__text"><?php echo $banner_1['banner_title'] ?></p>
+                            <a href="<?php echo $banner_1['banner_link'] ?>" class="slider__image__info__link"><?php echo $banner_1['banner_button'] ?></a>
+                        </div>
+                        <img class="slider__image__img" src="<?php echo esc_url($banner_1['banner_img']['url']) ?>" alt=" bs-banner-1">
                     </div>
-                    <img class="slider__image__img" src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_BANNER_2.jpg' ?>" alt="bs-banner-1">
-
-                </div>
-                <div class="slider__image slider__image--2">
-                    <div class="slider__image__info">
-                        <p class="slider__image__info__text">Smoke 2.0 ANC</p>
-                        <a href="http://www.blacksheep.com.pe/product/smoke-2-0-anc/" class="slider__image__info__link">¡Cómpralos aquí!</a>
+                    <div class="slider__image slider__image--2">
+                        <div class="slider__image__info">
+                            <p class="slider__image__info__text"><?php echo $banner_2['banner_title'] ?></p>
+                            <a href="<?php echo $banner_2['banner_link'] ?>" class="slider__image__info__link"><?php echo $banner_2['banner_button'] ?></a>
+                        </div>
+                        <img class="slider__image__img" src="<?php echo esc_url($banner_2['banner_img']['url']) ?>" alt=" bs-banner-3">
                     </div>
-                    <img class="slider__image__img" src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_BANNER_1.jpg' ?>" alt=" bs-banner-2">
-
-                </div>
-                <div class="slider__image">
-                    <div class="slider__image__info">
-                        <p class="slider__image__info__text">Tabs</p>
-                        <a href="http://www.blacksheep.com.pe/product/tabs/" class="slider__image__info__link">¡Cómpralos aquí!</a>
+                    <div class="slider__image">
+                        <div class="slider__image__info">
+                            <p class="slider__image__info__text"><?php echo $banner_3['banner_title'] ?></p>
+                            <a href="<?php echo $banner_3['banner_link'] ?>" class="slider__image__info__link"><?php echo $banner_3['banner_button'] ?></a>
+                        </div>
+                        <img class="slider__image__img" src="<?php echo esc_url($banner_3['banner_img']['url']) ?>" alt=" bs-banner-3">
                     </div>
-                    <img class="slider__image__img" src="<?php echo get_stylesheet_directory_uri() . '/src/images/BS_BANNER_3.jpg' ?>" alt=" bs-banner-3">
-
-                </div>
+                <?php
+                }
+                ?>
             </div>
             <button class="prev">
                 <img class="slider__arrow" src="<?php echo get_stylesheet_directory_uri() . '/src/images/icons/arrow.svg' ?>" />
