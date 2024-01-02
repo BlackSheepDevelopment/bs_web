@@ -35,7 +35,7 @@ get_header();
                             <p class="slider__image__info__text"><?php echo $banner_2['banner_title'] ?></p>
                             <a href="<?php echo $banner_2['banner_link'] ?>" class="slider__image__info__link"><?php echo $banner_2['banner_button'] ?></a>
                         </div>
-                        <img class="slider__image__img" src="<?php echo esc_url($banner_2['banner_img']['url']) ?>" alt=" bs-banner-3">
+                        <img class="slider__image__img" src="<?php echo esc_url($banner_2['banner_img']['url']) ?>" alt=" bs-banner-2">
                     </div>
                     <div class="slider__image">
                         <div class="slider__image__info">
